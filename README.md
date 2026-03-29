@@ -1,5 +1,7 @@
 <h1 align="center">Aether 🦋</h1>
 <p align="center"><b>The Future of Cinematic Streaming. Built for Speed, Privacy, and Elegance.</b></p>
+
+
 📖 Overview
 
 
@@ -11,31 +13,22 @@ Aether is a next-generation, account-free streaming client and paired CMS ecosys
 
 • 🎨 Liquid Interface: A gorgeous, hardware-accelerated dark-mode UI utilizing fluid CSS animations and glassmorphic overlays.
 
-
 • 🎬 Infinite TMDB Catalog: Dynamically fetches trending movies, top-rated classics, and live TV show season/episode structures directly from The Movie Database.
-
 
 • ⚡ Smart Player Engine: Utilizes a hybrid player system. Plays standard MP4s natively on the web canvas, with an automatic fallback to Android's Native Hardware Engine or VLC Player Intent for heavy .mkv or HEVC files.
 
-
 • 🔒 100% Private & Account-Free: "Continue Watching" progress and "Library" saves are stored exclusively in the user's local localStorage device cache. Zero user accounts required.
-
 
 • 📡 Live OTA Updates: Push instant UI alerts, force application updates, and change AdMob configurations globally in real-time via the coupled Firebase CMS.
 
-
 • 💰 Integrated Monetization: Built-in logic for @capacitor-community/admob including Rewarded Video (unlocks streams/downloads), Interstitial Overlays, and bottom Banner ads.
-
 
 🏗️ Architecture & Tech Stack
 • Frontend (Client & CMS): React.js (Vite), Tailwind CSS, Lucide Icons.
 
-
 • Backend & Real-time Sync: Firebase (Firestore, Anonymous Authentication).
 
-
 • Native Wrapper: Ionic Capacitor (Android & Web).
-
 
 • Native Plugins: @capacitor/status-bar, @capacitor-community/admob, Custom Java Video Hardware Bridge.
 
