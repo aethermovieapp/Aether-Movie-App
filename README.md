@@ -24,6 +24,8 @@ Aether is a next-generation, account-free streaming client and paired CMS ecosys
 • 💰 Integrated Monetization: Built-in logic for @capacitor-community/admob including Rewarded Video (unlocks streams/downloads), Interstitial Overlays, and bottom Banner ads.
 
 🏗️ Architecture & Tech Stack
+
+
 • Frontend (Client & CMS): React.js (Vite), Tailwind CSS, Lucide Icons.
 
 • Backend & Real-time Sync: Firebase (Firestore, Anonymous Authentication).
